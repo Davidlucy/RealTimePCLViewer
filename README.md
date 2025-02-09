@@ -1,4 +1,3 @@
-```markdown
 # RealTimePCLViewer
 
 A real-time point cloud visualization software powered by PCL and Qt.  
@@ -26,16 +25,17 @@ A real-time point cloud visualization software powered by PCL and Qt.
 
 ### 依赖项
 
-- Qt 6.2 或更高版本
-- PCL (Point Cloud Library)
-- Python 3.x
-- NumPy
+- **Qt 6.2** 或更高版本
+- **PCL** (Point Cloud Library)
+- **Python 3.x**
+- **NumPy**
 
 ### 编译和运行
 
 #### CMake构建流程
-```
-#点云配置关键
+
+```cmake
+# 点云配置关键
 find_package(Qt6 6.2 COMPONENTS Quick Quick3D REQUIRED)
 find_package(PCL REQUIRED)
 
@@ -70,7 +70,7 @@ include_directories(
 
 如果使用QMake，确保您的 `.pro` 文件如下或仓库所示：
 
-```
+```pro
 # 3D和OpenGL
 QT += quick quick3d opengl
 
@@ -146,4 +146,3 @@ void PointCloudProcessThread::run() {
 ## 许可证
 
 本项目采用MIT许可证，详细信息请查看LICENSE文件。
-```
