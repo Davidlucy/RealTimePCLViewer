@@ -7,10 +7,7 @@ A real-time point cloud visualization software powered by PCL and Qt.
 
 本项目实现了一个实时点云可视化工具，使用UDP协议接收点云数据并通过Qt进行可视化。该工具可以用于展示来自传感器或其他数据源的实时点云数据。
 
-<video width="640" height="480" controls>
-  <source src="videos/video.mp4" type="video/mp4">
-  您的浏览器不支持 HTML5 视频标签。
-</video>
+![示例 GIF](images/example.gif)
 
 ## 文件结构
 
